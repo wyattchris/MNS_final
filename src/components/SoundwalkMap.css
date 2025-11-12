@@ -1,0 +1,155 @@
+.soundwalk-map-container {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.soundwalk-map {
+  z-index: 1;
+}
+
+.marker-popup {
+  min-width: 200px;
+  text-align: center;
+}
+
+.marker-popup h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.marker-popup p {
+  margin: 0 0 1rem 0;
+  color: #666;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.play-audio-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.play-audio-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.play-audio-btn:active {
+  transform: translateY(0);
+}
+
+.location-details {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin-top: 1.5rem;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.location-details h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.location-details > p {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.audio-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.play-audio-btn-large {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+  min-width: 250px;
+}
+
+.play-audio-btn-large:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+.play-audio-btn-large:active {
+  transform: translateY(0);
+}
+
+.audio-note {
+  color: #999;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin: 0;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.leaflet-popup-content {
+  margin: 1rem;
+}
+
+@media (max-width: 768px) {
+  .soundwalk-map-container {
+    margin-bottom: 1rem;
+  }
+
+  .location-details {
+    padding: 1.5rem;
+  }
+
+  .location-details h2 {
+    font-size: 1.5rem;
+  }
+
+  .location-details > p {
+    font-size: 1rem;
+  }
+
+  .play-audio-btn-large {
+    padding: 0.9rem 1.5rem;
+    font-size: 1rem;
+    min-width: 200px;
+  }
+}
+
