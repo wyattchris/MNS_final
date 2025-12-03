@@ -28,7 +28,7 @@ const soundLocations: SoundLocation[] = [
     name: 'Park Entrance',
     description: 'The gentle rustle of leaves and distant city sounds create a peaceful atmosphere at the park entrance.',
     position: [42.3250, -71.0945],
-    audioUrl: '/audio/location1.mp3', // Placeholder - will be replaced with actual recordings
+    audioUrl: '/audio/location1.mp3',
   },
   {
     id: 2,
@@ -68,7 +68,6 @@ const SoundwalkMap: React.FC = () => {
   // Center of Highland Park, Roxbury
   const centerPosition: [number, number] = [42.3249, -71.0942];
 
-  // Cleanup audio on unmount
   useEffect(() => {
     return () => {
       if (audioRef.current) {
@@ -83,23 +82,19 @@ const SoundwalkMap: React.FC = () => {
   };
 
   const handlePlayAudio = (locationId: number, audioUrl: string) => {
-    // Stop any currently playing audio
     if (audioRef.current) {
       audioRef.current.pause();
       audioRef.current = null;
     }
 
     if (playingAudio === locationId) {
-      // If clicking the same location, just pause
       setPlayingAudio(null);
       return;
     }
 
-    // Create new audio element
     const audio = new Audio(audioUrl);
     audioRef.current = audio;
 
-    // Handle audio errors (file not found)
     audio.onerror = () => {
       console.log('Audio file not found. This is a placeholder for future recordings.');
       const locationName = soundLocations.find(l => l.id === locationId)?.name || 'this location';
@@ -108,13 +103,11 @@ const SoundwalkMap: React.FC = () => {
       audioRef.current = null;
     };
 
-    // Handle when audio ends
     audio.onended = () => {
       setPlayingAudio(null);
       audioRef.current = null;
     };
 
-    // Play the audio
     setPlayingAudio(locationId);
     audio.play().catch((error) => {
       console.error('Error playing audio:', error);
