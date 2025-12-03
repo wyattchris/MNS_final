@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Virtual Soundwalk</h1>
+        <h1> Listening to Boston </h1>
         <p className="subtitle">Explore Highland Park, Roxbury through sound</p>
       </header>
       <main>
