@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
 import SoundwalkMap from './components/SoundwalkMap';
+import PodcastPlayer from './components/PodcastPlayer';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1> Listening to Boston </h1>
-        <p className="subtitle">Explore Highland Park, Roxbury through sound</p>
+        <p className="subtitle">Exploring access to silence and noise within communities of Boston</p>
       </header>
       <main>
         <SoundwalkMap />
+        <PodcastPlayer />
       </main>
     </div>
   );
