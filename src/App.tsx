@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import SoundwalkMap from './components/SoundwalkMap';
 import PodcastPlayer from './components/PodcastPlayer';
+import Essay from './components/Essay';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main>
         <SoundwalkMap />
         <PodcastPlayer />
+        <Essay />
       </main>
     </div>
   );
