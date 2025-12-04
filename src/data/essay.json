@@ -22,34 +22,130 @@
     {
       "title": "Noise impacts on learning and student well-being",
       "content": [
-        "Scientific evidence shows that noise has measurable effects on health, sleep, stress, and cognition. Research from the Center for Occupational and Environmental Health explains that \"A single exposure to intense noise or a steady, long-term exposure can result in Noise-Induced Hearing Loss,\" while chronic noise elevates stress hormones even when people are not consciously aware of it. A 2024 Harvard University study of nearly one million deaths found significant links between environmental noise and cardiovascular disease mortality, particularly among women, demonstrating how everyday urban noise can affect long-term physiological health. Sleep researchers like Mathias Basner echo these findings. In his TED Talk, Basner notes that \"Noise in the bedroom can cause a delay in the time it takes us to fall asleep, it can wake us during the night, and can prevent our blood pressure from going down during the night,\" which, over time, increases cardiovascular risk. Because our auditory system monitors the environment even while we sleep, nighttime noise fragments rest and raises stress levels in ways that accumulate across months and years. However, we are often not aware of these noise-induced sleep disturbances because we are unconscious when we are asleep. This further indicates that the most harmful effects of noise exposure often go unnoticed, making them easier to ignore and harder to address through individual awareness alone.",
-        "These broader research findings directly relate to the sound levels students experience in Boston. The EPA warns that exposure above 70 dB over 24 hours can contribute to long-term hearing loss, yet sound levels in Boston frequently exceed this threshold. In Cristina Quinn's GBH article, \"Boston Is Noisy. How Is That Affecting Our Health?\", a sound meter placed at a major intersection near Northeastern recorded decibel levels well above recommended limits. Videos like \"Noise and the Blues: Exploring the Link Between Noise-Pollution and Depression\" by Dr Dalia Tsimpida further emphasize that repeated noise triggers physiological stress responses and raises baseline anxiety, even when \"the trigger is not always recognized as the noise.\" This matters in a student context: if noise is constantly present, the stress becomes part of the background of daily life."
+        {
+          "type": "paragraph",
+          "segments": [
+            "Scientific evidence shows that noise has measurable effects on health, sleep, stress, and cognition. Research from the ",
+            {
+              "type": "link",
+              "text": "Center for Occupational and Environmental Health",
+              "url": "https://coeh.ucdavis.edu/research/how-noise-pollution-quietly-affects-your-health"
+            },
+            " explains that \"A single exposure to intense noise or a steady, long-term exposure can result in Noise-Induced Hearing Loss,\" while chronic noise elevates stress hormones even when people are not consciously aware of it. A ",
+            {
+              "type": "link",
+              "text": "2024 Harvard University study",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0013935123028967?via%3Dihub"
+            },
+            " of nearly one million deaths found significant links between environmental noise and cardiovascular disease mortality, particularly among women, demonstrating how everyday urban noise can affect long-term physiological health. Sleep researchers like Mathias Basner echo these findings. In his ",
+            {
+              "type": "link",
+              "text": "TED Talk",
+              "url": "https://youtu.be/ewNTwBbLUhM?si=q2PaNk4XSh-iT6SI&t=323"
+            },
+            ", Basner notes that \"Noise in the bedroom can cause a delay in the time it takes us to fall asleep, it can wake us during the night, and can prevent our blood pressure from going down during the night,\" which, over time, increases cardiovascular risk. Because our auditory system monitors the environment even while we sleep, nighttime noise fragments rest and raises stress levels in ways that accumulate across months and years. However, we are often not aware of these noise-induced sleep disturbances because we are unconscious when we are asleep. This further indicates that the most harmful effects of noise exposure often go unnoticed, making them easier to ignore and harder to address through individual awareness alone."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "segments": [
+            "These broader research findings directly relate to the sound levels students experience in Boston. ",
+            {
+              "type": "link",
+              "text": "The EPA",
+              "url": "https://www.epa.gov/archive/epa/aboutepa/epa-identifies-noise-levels-affecting-health-and-welfare.html"
+            },
+            " warns that exposure above 70 dB over 24 hours can contribute to long-term hearing loss, yet sound levels in Boston frequently exceed this threshold. In Cristina Quinn's GBH article, ",
+            {
+              "type": "link",
+              "text": "\"Boston Is Noisy. How Is That Affecting Our Health?\"",
+              "url": "https://www.wgbh.org/news/local/2019-09-17/boston-is-noisy-how-is-that-affecting-our-health"
+            },
+            ", a sound meter placed at a major intersection near Northeastern recorded decibel levels well above recommended limits. Videos like ",
+            {
+              "type": "link",
+              "text": "\"Noise and the Blues: Exploring the Link Between Noise-Pollution and Depression\"",
+              "url": "https://youtu.be/yTwnMgtD1BM?si=zSiCfoyjkh9ko2sh"
+            },
+            " by Dr Dalia Tsimpida further emphasize that repeated noise triggers physiological stress responses and raises baseline anxiety, even when \"the trigger is not always recognized as the noise.\" This matters in a student context: if noise is constantly present, the stress becomes part of the background of daily life."
+          ]
+        }
       ]
     },
     {
       "title": "Campus Infrastructure Intensifying Noise Impacts",
       "content": [
-        "Soundscape research reinforces that traffic and construction consistently produce poor acoustic environments. A study by Jonas Hornberg et al. show that higher levels of traffic noise lead to significantly lower environmental evaluations, which \"aligns with previous studies that identified traffic noise as a major contributor to noise pollution and annoyance and its adverse effects on acoustic quality and well-being\" (Hornberg et al., 2024). Similarly, Jin Yong Jeon, Joo Young Hong, and Pil Joo Lee found that man-made sounds such as traffic and construction receive the lowest preference ratings, noting that \"preference scores for footsteps and speech were higher than 5, but those for traffic and construction were less than 3 on an a scale of 0 to 10, with 10 being the most preferable (Jeon, Hong, & Lee, 2020). In contrast, natural sounds reliably improve evaluations, suggesting that mechanical noise not only annoys listeners but also shapes their emotional and cognitive experience of a place. These findings align with research showing that repeated exposure to urban noise increases stress, disrupts concentration, and contributes to overall lower well-being.",
+        {
+          "type": "paragraph",
+          "segments": [
+            "Soundscape research reinforces that traffic and construction consistently produce poor acoustic environments. A study by Jonas Hornberg et al. show that higher levels of traffic noise lead to significantly lower environmental evaluations, which \"aligns with previous studies that identified traffic noise as a major contributor to noise pollution and annoyance and its adverse effects on acoustic quality and well-being\" (",
+            {
+              "type": "link",
+              "text": "Hornberg et al., 2024",
+              "url": "https://pubs.aip.org/asa/jasa/article/156/4/2827/3317730/Association-between-perceived-sound-type-dominance"
+            },
+            "). Similarly, Jin Yong Jeon, Joo Young Hong, and Pil Joo Lee found that man-made sounds such as traffic and construction receive the lowest preference ratings, noting that \"preference scores for footsteps and speech were higher than 5, but those for traffic and construction were less than 3 on an a scale of 0 to 10, with 10 being the most preferable (",
+            {
+              "type": "link",
+              "text": "Jeon, Hong, & Lee, 2020",
+              "url": "https://pubs.aip.org/asa/jasa/article/134/1/803/614574/Soundwalk-approach-to-identify-urban-soundscapes?searchresult=1"
+            },
+            "). In contrast, natural sounds reliably improve evaluations, suggesting that mechanical noise not only annoys listeners but also shapes their emotional and cognitive experience of a place. These findings align with research showing that repeated exposure to urban noise increases stress, disrupts concentration, and contributes to overall lower well-being."
+          ]
+        },
         "Student experiences on campus mirror these established patterns. In my survey, traffic, sirens, and construction were the most dominant sounds students noticed, which are exactly the types of sounds linked to poor acoustic quality.",
         {
           "type": "image",
           "src": "/images/Naomi_Img_1.png",
           "alt": "Student survey data on campus sounds"
         },
-        "After listening to the sound collage I created from noises around campus, students described intense stress and overstimulation: \"overwhelmed… made the hairs on the back of my neck stand up,\" \"I felt overstimulated,\" and \"Sometimes when I'm already anxious, extra noise does not help.\" Some also reported sleep disruption, such as \"I had street cleaners outside my window at 3am… so loud.\" Others emphasized the cognitive load and safety concerns created by noise: \"I don't put noise cancellation on because I don't want to get hit by something… I want to hear what's going on.\" These reactions mirror the pressures identified in scientific literature, including stress, sleep fragmentation, and constant vigilance.",
+        {
+          "type": "paragraph",
+          "segments": [
+            "After listening to the ",
+            {
+              "type": "link",
+              "text": "sound collage",
+              "url": "https://drive.google.com/file/d/1CTwwTkJhP2JF2Yexr0NWH-KKtws-81cl/view?usp=sharing"
+            },
+            " I created from noises around campus, students described intense stress and overstimulation: \"overwhelmed… made the hairs on the back of my neck stand up,\" \"I felt overstimulated,\" and \"Sometimes when I'm already anxious, extra noise does not help.\" Some also reported sleep disruption, such as \"I had street cleaners outside my window at 3am… so loud.\" Others emphasized the cognitive load and safety concerns created by noise: \"I don't put noise cancellation on because I don't want to get hit by something… I want to hear what's going on.\" These reactions mirror the pressures identified in scientific literature, including stress, sleep fragmentation, and constant vigilance."
+          ]
+        },
         {
           "type": "image",
           "src": "/images/Naomi_Img_2.png",
           "alt": "Student reactions to sound collage"
         },
-        "Yet many students believe they have simply 'adjusted,' a misconception that adaptation equals health. In my data, 100% of participants reported being somewhat or very adapted to Boston's noise, saying things like \"It took me about a year to adjust to the constant noise here\" or \"Now when I go home it feels too quiet.\" In a Medium article, Erica Walker recounts a similar phenomenon during the pandemic, when urban streets fell silent: \"The streets were so desolate that I was able to safely bike down the middle of the road and hear the beating of my own heart. That was something I hadn't experienced since my childhood in rural Mississippi.\" This moment of heightened awareness illustrates how continuous noise often goes unnoticed until it is removed, highlighting the disconnect between perceived habituation and actual physiological effects. Soundscape research confirms that habituation reduces conscious awareness but does not eliminate the negative effects of noise. People may \"tune out\" sirens or traffic, but their bodies still respond with elevated stress, fragmented sleep, and reduced concentration.",
+        {
+          "type": "paragraph",
+          "segments": [
+            "Yet many students believe they have simply 'adjusted,' a misconception that adaptation equals health. In my data, 100% of participants reported being somewhat or very adapted to Boston's noise, saying things like \"It took me about a year to adjust to the constant noise here\" or \"Now when I go home it feels too quiet.\" In ",
+            {
+              "type": "link",
+              "text": "a Medium article",
+              "url": "https://medium.com/vision-zero-cities-journal/who-gets-peace-and-quiet-urban-noise-in-the-covid-19-pandemic-c821e0a08887"
+            },
+            ", Erica Walker recounts a similar phenomenon during the pandemic, when urban streets fell silent: \"The streets were so desolate that I was able to safely bike down the middle of the road and hear the beating of my own heart. That was something I hadn't experienced since my childhood in rural Mississippi.\" This moment of heightened awareness illustrates how continuous noise often goes unnoticed until it is removed, highlighting the disconnect between perceived habituation and actual physiological effects. Soundscape research confirms that habituation reduces conscious awareness but does not eliminate the negative effects of noise. People may \"tune out\" sirens or traffic, but their bodies still respond with elevated stress, fragmented sleep, and reduced concentration."
+          ]
+        },
         "This matters because these impacts directly shape student well-being and academic life. Noise affects mood, attention, sleep quality, and overall cognitive functioning, which are all critical for learning. Some reactions to the sound collage included: \"anxious,\" \"unsettled,\" \"noisy, disturbing, unpleasant,\" which reveal that students feel these effects even if they don't always identify noise as the cause. Taken together, scientific research and student interviews show that Boston's campus soundscape is not just an annoyance but an environmental stressor with real implications for concentration, mental health, and daily academic performance. In the context of increasing reports of anxiety, burnout, and mental health crises on college campuses, this suggests that noise pollution is not a minor inconvenience but part of a larger ecosystem of stressors affecting student well-being."
       ]
     },
     {
       "title": "Awareness and Misconceptions of Noise",
       "content": [
-        "Additionally, students do not often perceive noise as a health concern because noise is invisible, normalized, and frequently dismissed. As Jennifer Biddle at the Center for Occupational and Environmental Health (COEH) notes, \"Noise is harder to quantify than air or water pollution… [it] can't be tasted, seen, or smelled,\" making its effects less immediately recognizable. This invisibility partly explains why noise pollution remains understudied and underfunded. Since the Reagan administration shifted responsibility for noise regulation to the state level, federal noise research has been largely dismantled, and public awareness has stagnated. As the Harvard University magazine article on Erica Walker's work explains, noise \"has not really been addressed as a national public-health problem since the 1970s,\" after the closure of the Office of Noise Abatement and Control in 1982 (Porter-Brown, 2018). This policy vacuum reinforces a cultural attitude that noise is simply an inevitable part of urban life.",
+        {
+          "type": "paragraph",
+          "segments": [
+            "Additionally, students do not often perceive noise as a health concern because noise is invisible, normalized, and frequently dismissed. As Jennifer Biddle at the Center for Occupational and Environmental Health (COEH) notes, \"Noise is harder to quantify than air or water pollution… [it] can't be tasted, seen, or smelled,\" making its effects less immediately recognizable. This invisibility partly explains why noise pollution remains understudied and underfunded. Since the Reagan administration shifted responsibility for noise regulation to the state level, federal noise research has been largely dismantled, and public awareness has stagnated. As the ",
+            {
+              "type": "link",
+              "text": "Harvard University magazine article",
+              "url": "https://www.harvardmagazine.com/2018/02/erica-walker"
+            },
+            " on Erica Walker's work explains, noise \"has not really been addressed as a national public-health problem since the 1970s,\" after the closure of the Office of Noise Abatement and Control in 1982 (Porter-Brown, 2018). This policy vacuum reinforces a cultural attitude that noise is simply an inevitable part of urban life."
+          ]
+        },
         "Public discourse reflects this normalization. In the article \"Noise Report Cards for Boston Neighborhoods\" Walker mentions that \"People feel they just have to put up with noise because they live in the city. A lot of people are suffering—they're just suffering in silence\" (Hartnett, 2024). Complaints about noise are often dismissed as overly sensitive or entitled, which discourages people from questioning the conditions they live in. Yet, as noise researchers argue, residents should still have a right to quieter environments, even in dense cities. However, because people assume loudness is unavoidable, they tolerate rather than challenge harmful levels of noise.",
         "Data from my survey mirrors this societal pattern. Among the 18 student participants, traffic (88.9%), sirens (83.3%), and construction (77.8%) were ranked as the most noticeable campus sounds. This aligns with existing soundscape research: in a study using ISO 12913 soundwalks, traffic noise was identified as \"the dominant perceived sound source.\" The authors highlight that \"higher levels of perceived traffic noise are linked to lower overall evaluations\" and note that this finding is consistent with previous work identifying traffic as a major contributor to annoyance and adverse effects on acoustic quality and well-being (Hornberg et al., 2024). Despite being highly attuned to these sources, only 22.2% of students recognized noise as \"harmful\" prior to the study. Additionally, before listening to the sound collage, 61.1% reported being only \"somewhat aware\" of the sounds around them while walking on campus. This illustrates a clear disconnect: students hear noise, but they do not interpret it as a health risk. Their responses suggest an understanding of noise primarily as an annoyance rather than a factor that can influence stress, sleep, concentration, and cardiovascular health.",
         {
@@ -79,7 +175,24 @@
     {
       "title": "Designing Quieter Campuses",
       "content": [
-        "Lastly, noise pollution on campus is not just a student concern—it is fundamentally a design and infrastructure problem that universities must address through building design, landscape planning, and urban policy. Boston's municipal code defines unreasonable noise as \"anything louder than 50 dB from 11 p.m. to 7 a.m. or anything above 70 dB at any time, except for permitted construction.\" Yet in a video led by Quinn featuring Erica Walker, a sound meter placed on the tenth floor of a residential building near Northeastern recorded 87 dB as the Green Line train passed, demonstrating that these limits are often not maintained. Reflecting this gap, 61.1% of students in my survey felt that noise pollution should be addressed, but currently isn't. As one student noted, \"I feel like in a perfect world there would be less noise pollution to reduce stress… however, with the reality of living in a city I don't think there is much that can be done,\" one student noted, while another said, \"People can use AirPods/headphones to listen to calming music while walking… but it's still heavy noise pollution,\" reiterating the desire to ignore and suppress the problem.",
+        {
+          "type": "paragraph",
+          "segments": [
+            "Lastly, noise pollution on campus is not just a student concern—it is fundamentally a design and infrastructure problem that universities must address through building design, landscape planning, and urban policy. ",
+            {
+              "type": "link",
+              "text": "Boston's municipal code",
+              "url": "https://www.boston.gov/government/cabinets/boston-public-health-commission/healthy-homes-and-environment/noise-boston"
+            },
+            " defines unreasonable noise as \"anything louder than 50 dB from 11 p.m. to 7 a.m. or anything above 70 dB at any time, except for permitted construction.\" Yet in a ",
+            {
+              "type": "link",
+              "text": "video led by Quinn featuring Erica Walker",
+              "url": "https://youtu.be/0CPnLGKGrBU?si=r7PKC8QmX5IfJL8P&t=112"
+            },
+            ", a sound meter placed on the tenth floor of a residential building near Northeastern recorded 87 dB as the Green Line train passed, demonstrating that these limits are often not maintained. Reflecting this gap, 61.1% of students in my survey felt that noise pollution should be addressed, but currently isn't. As one student noted, \"I feel like in a perfect world there would be less noise pollution to reduce stress… however, with the reality of living in a city I don't think there is much that can be done,\" one student noted, while another said, \"People can use AirPods/headphones to listen to calming music while walking… but it's still heavy noise pollution,\" reiterating the desire to ignore and suppress the problem."
+          ]
+        },
         "Research shows that campus design can significantly mitigate noise and improve perceived soundscapes. Studies by Jeon, Hornberg, and Mancini highlight that natural sounds and green spaces can mask unwanted mechanical noise, improving student well-being. Mancini observes, \"This indicates that natural sounds such as water could be regarded as soundscape design elements to enhance the urban soundscape quality,\" and notes that \"The main green park of the University campus presented a perceived positive soundscape, even though noise from the nearby highway was present.\" Researchers further stress that \"The sound is not considered a waste product… but a real resource… for masking the unwanted ones.\" Students echoed these findings: \"Maybe more trees would dampen the noise,\" suggested one, and another noted, \"Soundproofing would be nice – especially in dorms.\"",
         {
           "type": "image",
@@ -92,7 +205,18 @@
           "src": "/images/Naomi_Img_6.png",
           "alt": "A tranquil outdoor space from The Sound of Silence"
         },
-        "To conclude, while noise pollution is pervasive, it is not inevitable. There are concrete steps students, campus planners, university leaders, and communities can take to reduce its impact. Students can start by becoming more intentional listeners by paying attention to the sounds around them and recognizing how noise affects stress, focus, and well-being. Tools like NoiseScore can help quantify noise in different spaces and make the invisible impacts of sound more tangible. At the institutional level, advocacy for designated quiet zones, green buffers, and thoughtful campus planning can make a measurable difference. On a broader scale, research and student feedback point toward clear solutions: thoughtful soundscape design, increased greenery, soundproofed study and living spaces, and campus planning that pays attention to where noise concentrates. Even though Boston will never be silent, and the weekly lawn mowing outside my dorm is evident of that, acknowledging noise as a real environmental stressor is the first step toward building campuses that better support student well-being."
+        {
+          "type": "paragraph",
+          "segments": [
+            "To conclude, while noise pollution is pervasive, it is not inevitable. There are concrete steps students, campus planners, university leaders, and communities can take to reduce its impact. Students can start by becoming more intentional listeners by paying attention to the sounds around them and recognizing how noise affects stress, focus, and well-being. Tools like ",
+            {
+              "type": "link",
+              "text": "NoiseScore",
+              "url": "https://communitynoiselab.org/noisescore/"
+            },
+            " can help quantify noise in different spaces and make the invisible impacts of sound more tangible. At the institutional level, advocacy for designated quiet zones, green buffers, and thoughtful campus planning can make a measurable difference. On a broader scale, research and student feedback point toward clear solutions: thoughtful soundscape design, increased greenery, soundproofed study and living spaces, and campus planning that pays attention to where noise concentrates. Even though Boston will never be silent, and the weekly lawn mowing outside my dorm is evident of that, acknowledging noise as a real environmental stressor is the first step toward building campuses that better support student well-being."
+          ]
+        }
       ]
     }
   ]
