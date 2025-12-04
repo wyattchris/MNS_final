@@ -29,7 +29,7 @@ const PodcastPlayer: React.FC = () => {
   return (
     <div className="podcast-section">
       <div className="section-divider">
-        <h2>Isabella Valle: Generation Soundscapes</h2>
+        <h2>Isabella Valle: Generational Soundscapes</h2>
       </div>
       <div className="podcast-player-container">
         <button 
