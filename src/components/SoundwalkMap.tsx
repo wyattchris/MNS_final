@@ -3,7 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import './SoundwalkMap.css';
-import { soundLocations, zoningLocations, SoundLocation, ZoningLocation, Location } from '../data/locations';
+import { soundLocations, zoningLocations, soundCollageLocation, SoundLocation, ZoningLocation, SoundCollageLocation, Location } from '../data/locations';
 
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
@@ -21,6 +21,16 @@ const redIcon = new L.Icon({
   shadowSize: [41, 41]
 });
 
+const greenIcon = new L.Icon({
+  iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-green.png',
+  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41]
+});
+
+// TOOD: Remove the description from the marker highlight
 const SoundwalkMap: React.FC = () => {
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
   const [playingAudio, setPlayingAudio] = useState<number | null>(null);
@@ -58,7 +68,9 @@ const SoundwalkMap: React.FC = () => {
 
     audio.onerror = () => {
       console.log('Audio file not found. This is a placeholder for future recordings.');
-      const locationName = soundLocations.find(l => l.id === locationId)?.name || 'this location';
+      const locationName = soundLocations.find(l => l.id === locationId)?.name 
+        || (soundCollageLocation.id === locationId ? soundCollageLocation.name : null)
+        || 'this location';
       alert(`Audio recording for "${locationName}" will be available soon!`);
       setPlayingAudio(null);
       audioRef.current = null;
@@ -130,17 +142,39 @@ const SoundwalkMap: React.FC = () => {
             </Popup>
           </Marker>
         ))}
+        {/* Sound collage location with green marker */}
+        <Marker
+          key={soundCollageLocation.id}
+          position={soundCollageLocation.position}
+          icon={greenIcon}
+          eventHandlers={{
+            click: () => handleMarkerClick(soundCollageLocation),
+          }}
+        >
+          <Popup>
+            <div className="marker-popup">
+              <h3>{soundCollageLocation.name}</h3>
+              <p>{soundCollageLocation.description}</p>
+              <button
+                className="play-audio-btn"
+                onClick={() => handlePlayAudio(soundCollageLocation.id, soundCollageLocation.audioUrl)}
+              >
+                {playingAudio === soundCollageLocation.id ? '⏸ Pause' : '▶ Play Sound Collage'}
+              </button>
+            </div>
+          </Popup>
+        </Marker>
       </MapContainer>
 
       {selectedLocation && (
         <div className="location-details">
           <h2>{selectedLocation.name}</h2>
           <p>{selectedLocation.description}</p>
-          {selectedLocation.type === 'sound' && (
+          {(selectedLocation.type === 'sound' || selectedLocation.type === 'soundCollage') && (
             <div className="audio-controls">
               <button
                 className="play-audio-btn-large"
-                onClick={() => handlePlayAudio(selectedLocation.id, selectedLocation.audioUrl)}
+                onClick={() => handlePlayAudio(selectedLocation.id, (selectedLocation as SoundLocation | SoundCollageLocation).audioUrl)}
               >
                 {playingAudio === selectedLocation.id ? '⏸ Pause Audio' : '▶ Play Audio Recording'}
               </button>

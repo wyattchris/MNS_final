@@ -16,7 +16,16 @@ export interface ZoningLocation {
     type: 'zoning';
 }
 
-export type Location = SoundLocation | ZoningLocation;
+export interface SoundCollageLocation {
+    id: number;
+    name: string;
+    description: string;
+    position: [number, number];
+    audioUrl: string;
+    type: 'soundCollage';
+}
+
+export type Location = SoundLocation | ZoningLocation | SoundCollageLocation;
 
 // Sound locations for the soundwalk
 export const soundLocations: SoundLocation[] = [
@@ -105,4 +114,14 @@ export const zoningLocations: ZoningLocation[] = [
         type: 'zoning',
     },
 ];
+
+// Sound collage location
+export const soundCollageLocation: SoundCollageLocation = {
+    id: 10,
+    name: "Naomi's Sound Collage - Northeastern Campus",
+    description: 'This sound collage is built from field recordings captured across Northeastern\'s campus and layered so they play simultaneously. By compressing these everyday sounds into a single listening experience, the piece highlights just how much noise surrounds students, most of which we rarely notice. Although we don\'t typically hear all these sounds at once, presenting them together is meant to draw attention to the constant noise pollution on campus and encourage more mindful listening.',
+    position: [42.338909, -71.088629],
+    audioUrl: '/audio/naomi_sound_collage.wav',
+    type: 'soundCollage',
+};
 
