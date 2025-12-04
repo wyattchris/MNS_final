@@ -5,7 +5,6 @@ import 'leaflet/dist/leaflet.css';
 import './SoundwalkMap.css';
 import { soundLocations, zoningLocations, SoundLocation, ZoningLocation, Location } from '../data/locations';
 
-// Fix for default marker icons in react-leaflet
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-icon-2x.png',
@@ -13,7 +12,6 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
 });
 
-// Create custom red icon for zoning locations
 const redIcon = new L.Icon({
   iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
@@ -28,8 +26,8 @@ const SoundwalkMap: React.FC = () => {
   const [playingAudio, setPlayingAudio] = useState<number | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  // Center of Boston area to show both Highland Park and zoning locations
-  const centerPosition: [number, number] = [42.3400, -71.0750];
+  // Center of Boston area to show both Highland Park sound locations and zoning locations
+  const centerPosition: [number, number] = [42.3300, -71.0850];
 
   useEffect(() => {
     return () => {
