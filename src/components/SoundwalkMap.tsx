@@ -144,7 +144,6 @@ const SoundwalkMap: React.FC = () => {
               >
                 {playingAudio === selectedLocation.id ? '⏸ Pause Audio' : '▶ Play Audio Recording'}
               </button>
-              <p className="audio-note">Note: Audio recordings will be added soon</p>
             </div>
           )}
         </div>

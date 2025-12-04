@@ -25,7 +25,7 @@ export const soundLocations: SoundLocation[] = [
         name: 'Highland Overlook Point',
         description: 'At the tower in Highland Park, offering panoramic views of Roxbury and the surrounding area.',
         position: [42.325307, -71.094391],
-        audioUrl: '/audio/location1.mp3',
+        audioUrl: '/audio/highland.mp3',
         type: 'sound',
     },
     {
@@ -33,7 +33,7 @@ export const soundLocations: SoundLocation[] = [
         name: '57 Fort Avenue',
         description: 'At 57 Fort Avenue, capturing the sounds of the neighborhood approach to Highland.',
         position: [42.326300, -71.095377],
-        audioUrl: '/audio/location2.mp3',
+        audioUrl: '/audio/ftave.mp3',
         type: 'sound',
     },
     {
@@ -41,7 +41,7 @@ export const soundLocations: SoundLocation[] = [
         name: '140 Marcella Street',
         description: 'At 140 Marcella Street, experiencing the sounds of the residential area and nearby community spaces.',
         position: [42.325375, -71.096840],
-        audioUrl: '/audio/location3.mp3',
+        audioUrl: '/audio/marcellast.mp3',
         type: 'sound',
     },
     {
@@ -49,7 +49,7 @@ export const soundLocations: SoundLocation[] = [
         name: 'Stop & Shop - Centre Street',
         description: 'At 301 Centre Street, the Stop & Shop near Jackson Square, capturing the bustling commercial sounds of Centre Street.',
         position: [42.322939, -71.102203],
-        audioUrl: '/audio/location4.mp3',
+        audioUrl: '/audio/stopandshop.mp3',
         type: 'sound',
     },
     {
