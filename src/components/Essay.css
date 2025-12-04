@@ -34,6 +34,19 @@
   margin-bottom: 1.5rem;
 }
 
+.essay-link {
+  color: #ffd700;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 215, 0, 0.5);
+  transition: all 0.2s ease;
+}
+
+.essay-link:hover {
+  color: #ffed4e;
+  text-decoration-color: #ffed4e;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
+}
+
 .essay-image-container {
   margin: 2rem 0;
   text-align: center;

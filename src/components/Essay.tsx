@@ -2,19 +2,57 @@ import React from 'react';
 import essayData from '../data/essay.json';
 import './Essay.css';
 
-interface EssayContent {
-  type?: string;
-  src?: string;
+interface EssayLink {
+  type: 'link';
+  text: string;
+  url: string;
+}
+
+interface EssayImage {
+  type: 'image';
+  src: string;
   alt?: string;
 }
 
+interface EssayParagraph {
+  type: 'paragraph';
+  segments: (string | EssayLink)[];
+}
+
+type EssayContent = string | EssayImage | EssayParagraph;
+
 interface EssaySection {
   title: string;
-  content: (string | EssayContent)[];
+  content: EssayContent[];
 }
 
 const Essay: React.FC = () => {
-  const renderContent = (content: string | EssayContent, index: number) => {
+  const renderParagraph = (paragraph: EssayParagraph, index: number) => {
+    return (
+      <p key={index}>
+        {paragraph.segments.map((segment, segIndex) => {
+          if (typeof segment === 'string') {
+            return <span key={segIndex}>{segment}</span>;
+          } else if (segment.type === 'link') {
+            return (
+              <a
+                key={segIndex}
+                href={segment.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="essay-link"
+              >
+                {segment.text}
+              </a>
+            );
+          }
+          return null;
+        })}
+      </p>
+    );
+  };
+
+  const renderContent = (content: any, index: number) => {
     if (typeof content === 'string') {
       return <p key={index}>{content}</p>;
     } else if (content.type === 'image') {
@@ -27,6 +65,8 @@ const Essay: React.FC = () => {
           />
         </div>
       );
+    } else if (content.type === 'paragraph') {
+      return renderParagraph(content as EssayParagraph, index);
     }
     return null;
   };

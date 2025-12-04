@@ -3,7 +3,18 @@
     {
       "title": "Introduction",
       "content": [
-        "Noise pollution is not only an environmental concern for animals in urban ecosystems but also for people. This includes students on college campuses, especially those located in dense city environments. In Boston, where many universities are situated directly within the bustle of the city, students are surrounded daily by traffic, construction, sirens, and other constant sounds that make up their acoustic environment. Despite its persistence, this issue often goes unnoticed in day-to-day student life.",
+        {
+          "type": "paragraph",
+          "segments": [
+            "Noise pollution is not only an ",
+            {
+              "type": "link",
+              "text": "environmental concern for animals in urban ecosystems",
+              "url": "https://www.bu.edu/articles/2021/without-commuter-traffic-pandemic-era-boston-drivers-are-speeding-up-increasing-noise-pollution/"
+            },
+            " but also for people. This includes students on college campuses, especially those located in dense city environments. In Boston, where many universities are situated directly within the bustle of the city, students are surrounded daily by traffic, construction, sirens, and other constant sounds that make up their acoustic environment. Despite its persistence, this issue often goes unnoticed in day-to-day student life."
+          ]
+        },
         "Students often walk across campus with headphones on, treating the city's noise as unavoidable \"background noise,\" unaware that Boston is consistently labeled one of the noisiest cities in the U.S. and that chronic exposure can affect their sleep, stress levels, and ability to concentrate. My own awareness of this issue came unexpectedly one afternoon: after nearly an hour of loud street cleaning and lawn mowing outside my window, the noise suddenly stopped. Only then did I realize how much it had been affecting me. The moment the buzzing ceased, I felt an immediate sense of relief—my focus sharpened, the tension in my body eased, and even my ear felt less \"clogged.\" I had tuned the noise out while it was happening, but once it disappeared, I became acutely aware of how intrusive it had been. That experience made me wonder how often students undergo similar moments on campus without recognizing the impact noise has on their concentration or well-being. This curiosity was reinforced in our Music, Noise, Silence class, where we completed soundwalks. I conducted mine at the West Village dorms on Northeastern's campus, and the assignment fundamentally shifted the way I listen in my daily life, making me far more intentional and attentive to the soundscapes around me. These experiences ultimately pushed me to pursue this project, which poses the question: How does experiencing a creative sound collage of campus noise pollution affect university students' awareness of their acoustic environment and reported listening behaviors?",
         "To explore this question, I used a multi-phase method approach. First, I collected field recordings around key campus locations such as the West Village A dorm, where traffic, sirens, and construction are prominent due to the intersection of Parker St. and Ruggles St. I then layered and composed these recordings into a short creative sound collage that represented the density of campus noise. Lastly, participants completed a pre-intervention survey on their listening habits and perceptions of noise, experienced the sound collage, and then completed a post-intervention survey to measure changes in awareness and reported behaviors. Ultimately, the sound collage seeks to deepen students' awareness of daily noise pollution and encourage more intentional listening as a step toward addressing sound issues on campus."
       ]
