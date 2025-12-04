@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1> Listening to Boston </h1>
-        <p className="subtitle">Exploring access to silence and noise within communities of Boston</p>
+        <p className="subtitle">Exploring access to silence and noise distribution within communities of Boston</p>
       </header>
       <main>
         <SoundwalkMap />
