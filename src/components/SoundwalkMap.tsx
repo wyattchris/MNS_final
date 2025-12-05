@@ -91,12 +91,16 @@ const SoundwalkMap: React.FC = () => {
 
   return (
     <div className="soundwalk-map-container">
-      <MapContainer
-        center={centerPosition}
-        zoom={13}
-        style={{ height: '600px', width: '100%', borderRadius: '10px' }}
-        className="soundwalk-map"
-      >
+      <div className="section-divider">
+        <h2>Chris Wyatt: Interactive Soundwalk - Highland Park, Roxbury</h2>
+      </div>
+      <div className="soundwalk-map-wrapper">
+        <MapContainer
+          center={centerPosition}
+          zoom={13}
+          style={{ height: '600px', width: '100%', borderRadius: '10px' }}
+          className="soundwalk-map"
+        >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -164,7 +168,8 @@ const SoundwalkMap: React.FC = () => {
             </div>
           </Popup>
         </Marker>
-      </MapContainer>
+        </MapContainer>
+      </div>
 
       {selectedLocation && (
         <div className="location-details">

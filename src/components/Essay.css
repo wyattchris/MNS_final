@@ -3,6 +3,35 @@
   padding: 2rem 0;
 }
 
+.section-divider {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  padding-bottom: 1rem;
+  max-width: 600px;
+  position: relative;
+}
+
+.section-divider::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  border-radius: 2px;
+}
+
+.section-divider h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+}
+
 .essay-container {
   max-width: 900px;
   margin: 0 auto;
@@ -64,6 +93,10 @@
 @media (max-width: 768px) {
   .essay-container {
     padding: 0 1rem;
+  }
+  
+  .section-divider h2 {
+    font-size: 1.5rem;
   }
   
   .essay-section-title {

@@ -73,6 +73,9 @@ const Essay: React.FC = () => {
 
   return (
     <div className="essay-section">
+      <div className="section-divider">
+        <h2>Naomi Zhang: Campus Noise Pollution</h2>
+      </div>
       <div className="essay-container">
         {essayData.sections.map((section, sectionIndex) => (
           <div key={sectionIndex} className="essay-section-content">

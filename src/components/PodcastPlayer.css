@@ -5,9 +5,22 @@
 
 .section-divider {
   text-align: center;
-  margin-bottom: 2rem;
+  margin: 0 auto 2rem auto;
   padding-bottom: 1rem;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  max-width: 600px;
+  position: relative;
+}
+
+.section-divider::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  border-radius: 2px;
 }
 
 .section-divider h2 {
@@ -16,6 +29,7 @@
   font-weight: 600;
   margin: 0;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
 }
 
 .podcast-player-container {
