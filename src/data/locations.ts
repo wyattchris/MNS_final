@@ -65,7 +65,7 @@ export const soundLocations: SoundLocation[] = [
     {
         id: 5,
         name: 'Highland Street',
-        description: 'Here on Highland St, next to the parking lots that border the Southwest Corridor and Columbus Avenue, the soundscape reflects the exact meeting point of the Highland Neighborhood with transit routes and urban infrastructure of Boston. Within the recording, the openers of the lots amplifies the sounds of passing cars and distant train movement, relating to Erica Walkers concept of layered everyday noises that shape (consciously and unconsciously) how residents experience their sonic environment. On Highland St, the  moments of quiet coexist with the mechanical sounds of traffic and transit, further illustrating how the edges of the neighborhood reveal the acoustic effects of planning decisions within Roxbury\'s shared spaces.',
+        description: 'Here on Highland St, next to the parking lots that border the Southwest Corridor and Columbus Avenue, the soundscape reflects the exact meeting point of the Highland Neighborhood with transit routes and urban infrastructure of Boston. Within the recording, the lot\'s emptiness amplifies the sounds of passing cars and distant train movement, relating to Erica Walkers concept of layered everyday noises that shape (consciously and unconsciously) how residents experience their sonic environment. On Highland St, the  moments of quiet coexist with the mechanical sounds of traffic and transit, further illustrating how the edges of the neighborhood reveal the acoustic effects of planning decisions within Roxbury\'s shared spaces.',
         position: [42.324535, -71.097475],
         audioUrl: '/audio/location5.mp3',
         type: 'sound',
