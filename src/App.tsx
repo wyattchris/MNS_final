@@ -1,8 +1,10 @@
 import React from 'react';
 import './App.css';
+import ProjectContext from './components/ProjectContext';
 import SoundwalkMap from './components/SoundwalkMap';
 import PodcastPlayer from './components/PodcastPlayer';
 import Essay from './components/Essay';
+import WorksCited from './components/WorksCited';
 
 function App() {
   return (
@@ -12,9 +14,11 @@ function App() {
         <p className="subtitle">Exploring access to silence and noise distribution within communities of Boston</p>
       </header>
       <main>
+        <ProjectContext />
         <SoundwalkMap />
         <PodcastPlayer />
         <Essay />
+        <WorksCited />
       </main>
     </div>
   );

@@ -1,0 +1,100 @@
+.project-context-section {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+}
+
+.section-divider {
+  text-align: center;
+  margin: 0 auto 2rem auto;
+  padding-bottom: 1rem;
+  max-width: 600px;
+  position: relative;
+}
+
+.section-divider::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  border-radius: 2px;
+}
+
+.section-divider h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+}
+
+.project-context-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.project-context-content {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-context-content p {
+  color: rgba(255, 255, 255, 0.95);
+  font-size: 1.15rem;
+  line-height: 1.9;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.8rem;
+}
+
+.project-context-content p:last-child {
+  margin-bottom: 0;
+}
+
+.project-context-question {
+  margin-top: 2rem !important;
+  font-size: 1.25rem !important;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 2rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.project-context-question em {
+  font-style: italic;
+  color: #ffd700;
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .project-context-container {
+    padding: 0 1rem;
+  }
+  
+  .section-divider h2 {
+    font-size: 1.5rem;
+  }
+  
+  .project-context-content {
+    padding: 1.5rem;
+  }
+  
+  .project-context-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+  
+  .project-context-question {
+    font-size: 1.1rem !important;
+  }
+}
+
