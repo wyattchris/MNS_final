@@ -67,7 +67,7 @@ export const soundLocations: SoundLocation[] = [
         name: 'Highland Street',
         description: 'Here on Highland St, next to the parking lots that border the Southwest Corridor and Columbus Avenue, the soundscape reflects the exact meeting point of the Highland Neighborhood with transit routes and urban infrastructure of Boston. Within the recording, the lot\'s emptiness amplifies the sounds of passing cars and distant train movement, relating to Erica Walkers concept of layered everyday noises that shape (consciously and unconsciously) how residents experience their sonic environment. On Highland St, the  moments of quiet coexist with the mechanical sounds of traffic and transit, further illustrating how the edges of the neighborhood reveal the acoustic effects of planning decisions within Roxbury\'s shared spaces.',
         position: [42.324535, -71.097475],
-        audioUrl: '/audio/location5.mp3',
+        audioUrl: '/audio/lots.m4a',
         type: 'sound',
     },
     {
@@ -75,7 +75,7 @@ export const soundLocations: SoundLocation[] = [
         name: 'Jackson Square T Station',
         description: 'At the Jackson Square T Stop, the soundscape reflects the noises of transit through the rumble of buses, metal, idling engines, and the flux of citizens moving throughout the station; the noise exposure to transportation is continuous both through traffic and transit (bus and train). Arregi notes how transportation and "road traffic noise stands out as a significant factor contributing to widespread public health issues," functioning as one of the most persistent noise exposures and environmental stressors for citizens of urban areas (Arregi Abstract). The audio from the Jackson Square T sound walk captures simultaneously how the infrastructure designed for mobility through public transit can also place a physiological burden on citizens who live in immediate proximity to noise; the concentration of the transit corridor through working neighborhoods further reflects a division of noise distribution and access to silence.',
         position: [42.3235, -71.0995],
-        audioUrl: '/audio/location6.mp3',
+        audioUrl: '/audio/jacksonsquaret.m4a',
         type: 'sound',
     },
 ];
