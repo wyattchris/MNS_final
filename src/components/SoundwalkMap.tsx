@@ -117,7 +117,6 @@ const SoundwalkMap: React.FC = () => {
             <Popup>
               <div className="marker-popup">
                 <h3>{location.name}</h3>
-                <p>{location.description}</p>
                 <button
                   className="play-audio-btn"
                   onClick={() => handlePlayAudio(location.id, location.audioUrl)}
@@ -141,7 +140,6 @@ const SoundwalkMap: React.FC = () => {
             <Popup>
               <div className="marker-popup">
                 <h3>{location.name}</h3>
-                <p>{location.description}</p>
               </div>
             </Popup>
           </Marker>
@@ -158,7 +156,6 @@ const SoundwalkMap: React.FC = () => {
           <Popup>
             <div className="marker-popup">
               <h3>{soundCollageLocation.name}</h3>
-              <p>{soundCollageLocation.description}</p>
               <button
                 className="play-audio-btn"
                 onClick={() => handlePlayAudio(soundCollageLocation.id, soundCollageLocation.audioUrl)}
